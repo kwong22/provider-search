@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container">
+      </div>
+    </div>
+    <div class="container">
+      <div id="search">
+        <input id="search-bar" type="text" placeholder="">
+        <button id="reset-btn" class="noselect pointer">&times;</button>
+        <button id="search-btn" class="noselect pointer" type="submit">Search</button>
+      </div>
+
+      <div id="results-count">0 results found.</div>
+
+      <div class="inner-container">
+        <div id="results">
+        </div>
+
+        <div id="specs">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+
+    <!-- Load scripts at end of body -->
+    <script src="js/metaphone.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
